@@ -4,7 +4,7 @@
 if __name__ == '__main__':
     print('Enter the lenght of your array.')
     n = int(input())
-    print('Enter an integer separated with ',' ')
+    print('Enter an integer separated with space ')
     maps = map(int, input().split())
     arr = list(maps)
     print(arr)
